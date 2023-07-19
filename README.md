@@ -17,13 +17,13 @@ All our codes are implemented in Pyhton 3.9 and we use the following packages:
 
 # Reproducing our results
 
-We provide the following scripts to reproduce results that we have reported in our paper.
+We provide the following scripts to reproduce our results.
 
-* [Numerical_E.py](./Table_1_Run.py)
+* Repoducing the results related classification: [Numerical_Experiment_Run.py](./Numerical_Experiment_Run.py) 
 
-* [Table_2_3_Run.py](./Table_2_3_Run.py)
+* Repoducing the results related regression: [Regression_Experiment_Run.py](./Regression_Experiment_Run.py)
 
-* [Figure_3_Run.py](./ApproxSklearn.py) Eklenecek
+
 
        
      
