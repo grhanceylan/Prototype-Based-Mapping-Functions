@@ -15,9 +15,10 @@ class ProtoTransformer(BaseEstimator, TransformerMixin):
 
     def fit(self, X, y=None):
         self.classes_ = unique_labels(y)
-        self.proto_selection = KMeans(init='k-means++', n_clusters=self.n_proto, random_state=42)
-        
-        #self.proto_selection = KMedoids(init='k-medoids++', n_clusters=self.n_proto, random_state=42)
+        #self.proto_selection = KMeans(init='k-means++', n_clusters=self.n_proto, random_state=42)
+
+        #self.proto_selection=  MDD_Critic(number_of_protos=self.n_proto)
+        self.proto_selection = KMedoids(init='k-medoids++', n_clusters=self.n_proto, random_state=42)
         # apply k-means and set centers as prototypes
         if self.feature_map.multi_proto_set:
             self.proto = []
