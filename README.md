@@ -13,14 +13,13 @@ All our codes are implemented in Pyhton 3.9 and we use the following packages:
     
 # Tutorials
 
-[Tutorial](./FeatureMaps.ipynb) explains the general usage of the mapping functions with scikit-learn 
-
+[Tutorial](./Tutorial.ipynb) initially explains the implementation of mapping functions, subsequently providing two instances of their utilization within scikit-learn tools, such as pipeline and grid-search.
 
 # Reproducing our results
 
 We provide the following scripts to reproduce results that we have reported in our paper.
 
-* [Table_1_Run.py](./Table_1_Run.py)
+* [Numerical_E.py](./Table_1_Run.py)
 
 * [Table_2_3_Run.py](./Table_2_3_Run.py)
 
